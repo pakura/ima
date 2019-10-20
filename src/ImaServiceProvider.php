@@ -11,5 +11,10 @@ use Illuminate\Support\ServiceProvider;
 
 class ImaServiceProvider extends ServiceProvider
 {
-
+    public function register()
+    {
+        $this->app['ima'] = $this->app->share(function ($app){
+            return new Ima;
+        });
+    }
 }
