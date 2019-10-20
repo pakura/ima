@@ -1,0 +1,13 @@
+{
+    "name": "pakura/ima",
+    "description": "TBC Peyment",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vaja sinauridze",
+            "email": "vajasin@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
